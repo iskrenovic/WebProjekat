@@ -1,0 +1,182 @@
+body
+{
+    background-color: rgba(223, 230, 233,1.0);
+}
+
+.mainLogin
+{
+    display: flex;
+    justify-content: center;            
+}
+
+.mainHome{
+    display: flex;
+    width: 100%;
+}
+
+.sidePannelClass{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.mainPannelClass{
+    display: flex;
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+    padding-left: 3%;    
+    padding-right: 3%;    
+    justify-content: center;
+    color: rgba(9, 132, 227,1.0);
+}
+
+.formica
+{
+     display: flex;
+     flex-direction: column;  
+     background-color: white;
+     justify-content: center;
+     border-radius: 15px;  
+}
+
+.inputClass
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;   
+}
+
+.inputLabelClass, .inputFieldsClass{
+    width: 100%;
+}
+
+
+
+.commandGroup{
+    width: 100%;
+}
+button{
+    height: 35px;
+    background-color: rgba(9, 132, 227,1.0);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.tips{
+    color: gray;
+    text-align: center;
+    margin: 5px;
+}
+
+.selectedDiv{
+    border-width: thick;
+    border-style: dashed;
+    border-color: rgba(9, 132, 227,1.0);
+}
+
+.calendar, .sublistDiv, .inputFieldsDiv{
+    display: flex;
+    background-color: white;
+    justify-content: center;   
+    width: auto; 
+    margin: 5px;
+    border-radius: 10px;    
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.divList{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.sideFunctionList{
+    display: flex;
+    width: 100%;
+}
+
+.listGroup{
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.inputElements{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;    
+}
+
+.sublistDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;    
+}
+
+h2{
+    padding: 5px;
+    text-align: center;
+    color: rgba(9, 132, 227,1.0);
+}
+
+.unselectedListElement{
+    border-width: thin;
+    border-color: rgba(9, 132, 227,1.0);
+    border-style: solid;   
+}
+
+.listElement{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(223, 230, 233,1.0);
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 3px;
+    color: rgba(9, 132, 227,1.0);;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dayDiv{
+    display: flex;
+    flex-direction: column;       
+    
+}
+
+.dateDiv{
+    width: 100px;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    font-size: large;
+    border-width: medium;
+    border-color: rgba(9, 132, 227,1.0);
+    border-style: solid;
+    text-align: center;
+    background-color: rgba(223, 230, 233,1.0);
+}
+
+.calendar{
+    height: fit-content;
+}
